@@ -16,6 +16,9 @@ export default defineConfig({
       input: {
         main: resolve(root, 'index.html'),
         about: resolve(root, 'about', 'index.html'),
+        houses: resolve(root, 'houselist', 'index.html'),
+        maps: resolve(root, 'maps', 'index.html'),
+        information: resolve(root, 'Houses', 'index.html'),
       }
     }
   }
