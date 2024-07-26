@@ -9,10 +9,23 @@
    
 }
 
-a{
-    text-decoration: none;
-    color: white;
+.links{
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    border-color: gray;
+    width: 1300px;
+    height: 40px;
+    gap: 10px;
+}
+.links span a{
+    text-decoration: none;
+    color: white;
+    gap: 100px;
+    border-color: white;
+
+    border: 20px;
+    margin: 30px;
+    
 }
