@@ -2,7 +2,8 @@ import React from "react";
 import "./Contact.css";
 import { MdCall } from "react-icons/md";
 import { BsFillChatDotsFill } from "react-icons/bs";
-import {HiChatBubbleBottomCenter} from 'react-icons/hi2'
+import {HiChatBubbleBottomCenter} from 'react-icons/hi2';
+import contactimg from "../public/hero-image.png";
 const Contact = () => {
   return (
     <div id="contact-us" className="c-wrapper">
@@ -39,7 +40,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Chat</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText"></span>
                   </div>
                 </div>
                 <div className="flexCenter button">Chat now</div>
@@ -54,11 +55,11 @@ const Contact = () => {
                     <BsFillChatDotsFill size={25} />
                   </div>
                   <div className="flexColStart detail">
-                    <span className="primaryText">Video Call</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="primaryText">Email</span>
+                    <span className="secondaryText">thesurge@example.com</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Video Call now</div>
+                <div className="flexCenter button">Email</div>
               </div>
 
               <div className="flexColCenter mode">
@@ -80,7 +81,7 @@ const Contact = () => {
         {/* right side */}
         <div className="flexEnd c-right">
           <div className="image-container">
-            <img src="../public/contact.jpg" alt="" />
+            <img src={contactimg} alt="" />
           </div>
         </div>
       </div>

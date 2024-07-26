@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import valueimg from "../public/value.png";
 import {
   Accordion,
   AccordionItem,
@@ -23,7 +24,7 @@ const Value = () => {
         {/* left side */}
         <div className="v-left">
           <div className="image-container">
-            <img src="../public/value.png" alt="" />
+            <img src={valueimg} alt="" />
           </div>
         </div>
 

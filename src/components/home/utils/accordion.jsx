@@ -5,19 +5,19 @@ const data = [
     icon: <HiShieldCheck/>,
     heading: "Best interest rates on the market",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Our company has the best value for our customers and businesses, we have the best properties locations in Australia",
   },
   {
     icon: <MdCancel />,
     heading: "Prevent unstable prices",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "We have the most stable market prices in the country as we are partnered with the most profitable government in the world",
   },
   {
     icon: <MdAnalytics />,
     heading: "Best price on the market",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "We have the best prices in the world, with the most cheap stunning views that you can ever possibly get.",
   },
 ];
 export default data;
