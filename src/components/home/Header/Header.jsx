@@ -17,7 +17,7 @@ addNotification({
   message: 'Your request has been sent, please check your emails',
   duration: 4000,
   native: true,
-  onClick: 'https://microsoft.com'
+  icon: './house.ico'
 });
 };
 
