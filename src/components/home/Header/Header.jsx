@@ -43,7 +43,7 @@ addNotification({
             <a href="/contact-us/">Contact Us</a>
             <a href="/about/">About</a>
             <button onClick={clickToNotify} className="button">
-              <a href="">Contact</a>
+              <a >Contact</a>
             </button>
           </div>
         </OutsideClickHandler>
