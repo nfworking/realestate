@@ -22,6 +22,9 @@ export default defineConfig({
         information: resolve(root, 'package1', 'index.html'),
         information2: resolve(root, 'package2', 'index.html'),
         information3: resolve(root, 'package3', 'index.html'),
+        information4: resolve(root, 'package4', 'index.html'),
+        information5: resolve(root, 'package5', 'index.html'),
+        information6: resolve(root, 'package6', 'index.html'),
         contact: resolve(root, 'contact-us', 'index.html'),
       }
     }

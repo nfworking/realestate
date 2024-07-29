@@ -5,7 +5,7 @@
     "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
     "image": "/r1.png",
     "outcome": "Learn More",
-    "url" : "/Houses/"
+    "url" : "/package1/"
   },
   {
     "name": "Asatti Garden City",
@@ -13,7 +13,7 @@
     "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
     "image": "/r2.png",
      "outcome": "Learn More",
-    "url" : "/home/"
+    "url" : "/package2/"
   },
   {
     "name": "Citralan Puri Serang",
@@ -21,7 +21,7 @@
     "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
     "image": "/r3.png",
     "outcome": "Learn More",
-    "url" : "/home/"
+    "url" : "/package3/"
   },
   {
     "name": "Aliva Priva Jardin",
@@ -29,7 +29,7 @@
     "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
     "image": "/r1.png",
     "outcome": "Learn More",
-    "url" : "/Houses/"
+    "url" : "/package4/"
   },
   {
     "name": "Asatti Garden City",
@@ -37,7 +37,7 @@
     "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
     "image": "/r2.png",
     "outcome": "Learn More",
-    "url" : "/home/"
+    "url" : "/package5/"
   },
   {
     "name": "Citralan Puri Serang",
@@ -45,49 +45,7 @@
     "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
     "image": "/r3.png",
     "outcome": "Learn More",
-    "url" : "/home/"
-  },
-  {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "/r1.png"
-  },
-  {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "/r1.png"
-  },
-  {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "/r1.png"
-  },
-  {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "/r1.png"
-  },
-  {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "/r1.png"
-  },
-  {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "/r1.png"
-  },
-  {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "/r1.png"
+    "url" : "/package6/"
   }
-  
 ]
+  
