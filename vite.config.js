@@ -20,8 +20,8 @@ export default defineConfig({
         houses: resolve(root, 'houselist', 'index.html'),
         maps: resolve(root, 'maps', 'index.html'),
         information: resolve(root, 'package1', 'index.html'),
-        information: resolve(root, 'package2', 'index.html'),
-        information: resolve(root, 'package3', 'index.html'),
+        information2: resolve(root, 'package2', 'index.html'),
+        information3: resolve(root, 'package3', 'index.html'),
         contact: resolve(root, 'contact-us', 'index.html'),
       }
     }
