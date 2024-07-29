@@ -21,6 +21,7 @@ export default defineConfig({
         maps: resolve(root, 'maps', 'index.html'),
         information: resolve(root, 'package1', 'index.html'),
         information: resolve(root, 'package2', 'index.html'),
+        information: resolve(root, 'package3', 'index.html'),
         contact: resolve(root, 'contact-us', 'index.html'),
       }
     }
