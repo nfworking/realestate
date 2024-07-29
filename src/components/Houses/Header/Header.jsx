@@ -15,7 +15,7 @@ const clickToNotify = ()=>{
 addNotification({
   title: 'TheSurgeHomes',
   message: 'Your request has been sent, please check your emails',
-  duration: 4000,
+  duration: 10000,
   native: true,
   icon: './house.ico'
 });
@@ -23,7 +23,7 @@ addNotification({
 
   return (
     <section className="h-wrapper" style={{ background: headerColor }}>
-      <div className="flexCenter innerWidth paddings h-container">
+      <div className="flexCenter innerWidth paddings h-container ">
         {/* logo */}
         <img src={companyimg} alt="logo" width={70} />
 
@@ -39,7 +39,8 @@ addNotification({
             style={getMenuStyles(menuOpened)}
           >
             <a href="/home/">Home</a>
-            <a href="/houselist/">Residencies</a>
+            
+            <a href="/houselist/">Residencies</a> 
             <a href="/contact-us/">Contact Us</a>
             <a href="/about/">About</a>
             <button onClick={clickToNotify} className="button">
