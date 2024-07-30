@@ -1,7 +1,6 @@
 import { convertNeSwToNwSe } from 'google-map-react';
 import React, { useState } from 'react';
 import Maps from "../maps/maps";
-import CountUp from "react-countup";
 
 import {MapContainer, TileLayer,} from 'react-leaflet';
 import GeoCoderMarker from "./GeoCodeMarker/GeoCodeMarker";
@@ -10,10 +9,10 @@ const ProductPage = () => {
 
 
     const [images, setImages] = useState({
-        img1 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/Mexicali-1-1024x686.jpg",
-        img2 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/006_Open2view_ID784672-4_Mexicali_Court-1024x684.jpg",
-        img3 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/005_Open2view_ID784672-4_Mexicali_Court-1024x684.jpg",
-        img4 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/007_Open2view_ID784672-4_Mexicali_Court-1024x684.jpg"
+        img1 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/11/web-01-1024x682.jpg",
+        img2 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/11/web-12-1024x683.jpg",
+        img3 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/11/028_Open2view_ID787193-31_Coobowie_Street-1024x684.jpg",
+        img4 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/11/021_Open2view_ID787193-31_Coobowie_Street-1024x684.jpg"
     })
 
     const [activeImg, setActiveImage] = useState(images.img1)
@@ -39,18 +38,18 @@ const ProductPage = () => {
             {/* ABOUT */}
             <div className='mt-10 flex flex-col gap-4 lg:w-2/4'>
                 <div>
-                    <span className=' text-blue-600 font-semibold'>Casa Mexicali</span>
-                    <h1 className='text-3xl font-bold mt-50'>5 bedrooms · 3 bathrooms · Heated Pool</h1>
+                    <span className=' text-blue-600 font-semibold'>Coobowie Waters</span>
+                    <h1 className='text-3xl font-bold mt-50'>5 bedrooms · 4 bathrooms · Heated Spa</h1>
                 </div>
                 <p className='text-gray-700'>
-                A perfect family holiday home with a heated pool. Casa Mexicali is the ideal property for a family holiday, complete with 5 bedrooms, 3 bathrooms and a great games room with pool table and a seperate lounge area both opening to the outdoor area with a BBQ and access to the heated pool.<br />  <br />
+                A perfect family holiday home with water vistas that will take your breath away. This is the perfect 5 bedroom, 4 bathroom home for a family getaway, a corporate stay or just a relaxing getaway with friends.
 
-The kitchen, dining and entertainment room open all into one which makes this the perfect space for you to be in the thick of things while on holiday. You can be preparing a family meal in the kitchen while watching the kids have a game of pool or just a short stroll down the hallway you will be in the separate lounge/TV Area. <br /> <br />
+The property boasts a large sun drenched pool and an outdoor heated spa with views to the large waterway it sits on.
 
-The lounge and TV room have views to the outdoor heated pool and waterfront, these spaces merge together with the BBQ area and undercover outdoor lounge and dining. You can also access the outdoor area from the Pool Table and Games room.
+The undercover outdoor deck at this property is one of a kind, with an outdoor dining table, outdoor lounge, BBQ and even a large bi-fold kitchen window that opens out with a servery bar – you can check in and do not need to leave during your stay.
                 </p>
                 
-                <h6 className=' text-2xl font-semibold'><span>$</span><CountUp start={0} end={2500000} duration={4} /></h6>
+                <h6 className=' text-2xl font-semibold'>$ 3.200,000.00</h6>
                 <div className='flex flex-row items-center gap-12'>
                     
                     <button className=' bg-blue-800 text-white font-semibold py-3 px-16 rounded-xl h-full'>Enquire Now!!</button>
@@ -62,7 +61,7 @@ The lounge and TV room have views to the outdoor heated pool and waterfront, the
 
                 <div className="ml-20 mt-0 mb-10">
                     <h1 className="mb-4 font-semibold  w-15 px-20  ">Where the house is located!</h1>
-                <MapContainer
+<MapContainer
         center={[-28.0206097, 153.415578]}
         zoom={9}
         scrollWheelZoom={true}
