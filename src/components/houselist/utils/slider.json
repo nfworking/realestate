@@ -1,18 +1,18 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "/r1.png",
-    "outcome": "Learn More",
+    "name": "Casa Mexicali",
+    "price": "2.500,000.00",
+    "detail": "5 bedrooms · 3 bathrooms · Heated Pool",
+    "image": "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/Mexicali-1-1024x686.jpg",
+    "outcome": "Explore",
     "url" : "/package1/"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "/r2.png",
-     "outcome": "Learn More",
+    "name": "Coobowie Waters",
+    "price": "3.200,000.00",
+    "detail": "5 bedrooms · 4 bathrooms · Heated Spa",
+    "image": "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/11/web-01-1024x682.jpg",
+     "outcome": "Explore",
     "url" : "/package2/"
   },
   {

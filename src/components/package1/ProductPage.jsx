@@ -1,6 +1,7 @@
 import { convertNeSwToNwSe } from 'google-map-react';
 import React, { useState } from 'react';
 import Maps from "../maps/maps";
+import CountUp from "react-countup";
 
 import {MapContainer, TileLayer,} from 'react-leaflet';
 import GeoCoderMarker from "./GeoCodeMarker/GeoCodeMarker";
@@ -49,7 +50,7 @@ The kitchen, dining and entertainment room open all into one which makes this th
 The lounge and TV room have views to the outdoor heated pool and waterfront, these spaces merge together with the BBQ area and undercover outdoor lounge and dining. You can also access the outdoor area from the Pool Table and Games room.
                 </p>
                 
-                <h6 className=' text-2xl font-semibold'>$ 2.500000.00</h6>
+                <h6 className=' text-2xl font-semibold'><span>$</span><CountUp start={0} end={2500000} duration={4} /></h6>
                 <div className='flex flex-row items-center gap-12'>
                     
                     <button className=' bg-blue-800 text-white font-semibold py-3 px-16 rounded-xl h-full'>Enquire Now!!</button>
@@ -62,16 +63,16 @@ The lounge and TV room have views to the outdoor heated pool and waterfront, the
                 <div className="ml-20 mt-0 mb-10">
                     <h1 className="mb-4 font-semibold  w-15 px-20  ">Where the house is located!</h1>
                 <MapContainer
-        center={[53.35, 18.8]}
-        zoom={1}
+        center={[-28.0206097, 153.415578]}
+        zoom={10}
         scrollWheelZoom={true}
         style={{
             height: "35vh",
-            width: "80%",
-            
+            width: "80%",        
                  
             zIndex: 0,           
             borderRadius: "2%",
+            backgroundColor: "black",
             
         }}
         >

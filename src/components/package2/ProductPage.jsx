@@ -9,10 +9,10 @@ const ProductPage = () => {
 
 
     const [images, setImages] = useState({
-        img1 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/Mexicali-1-1024x686.jpg",
-        img2 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/006_Open2view_ID784672-4_Mexicali_Court-1024x684.jpg",
-        img3 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/005_Open2view_ID784672-4_Mexicali_Court-1024x684.jpg",
-        img4 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/007_Open2view_ID784672-4_Mexicali_Court-1024x684.jpg"
+        img1 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/11/web-01-1024x682.jpg",
+        img2 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/11/web-12-1024x683.jpg",
+        img3 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/11/028_Open2view_ID787193-31_Coobowie_Street-1024x684.jpg",
+        img4 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/11/021_Open2view_ID787193-31_Coobowie_Street-1024x684.jpg"
     })
 
     const [activeImg, setActiveImage] = useState(images.img1)
@@ -27,8 +27,8 @@ const ProductPage = () => {
        
                     <div className='flex flex-col justify-between lg:flex-row gap-16 lg:items-center'>
             <div className='flex flex-col gap-6 lg:w-2/4'>
-                <img src={activeImg} alt="" className='w-full h-full ml-10  aspect-square object-cover rounded-xl'/>
-                <div className='flex flex-row justify-between h-24 ml-10'>
+                <img src={activeImg} alt="" className='w-full h-full ml-5  aspect-square object-cover rounded-xl'/>
+                <div className='flex flex-row justify-between h-24 ml-5'>
                     <img src={images.img1} alt="" className='w-24 h-24 rounded-md cursor-pointer' onClick={() => setActiveImage(images.img1)}/>
                     <img src={images.img2} alt="" className='w-24 h-24 rounded-md cursor-pointer' onClick={() => setActiveImage(images.img2)}/>
                     <img src={images.img3} alt="" className='w-24 h-24 rounded-md cursor-pointer' onClick={() => setActiveImage(images.img3)}/>
@@ -36,26 +36,38 @@ const ProductPage = () => {
                 </div>
             </div>
             {/* ABOUT */}
-            <div className='flex flex-col gap-4 lg:w-2/4'>
+            <div className='mt-10 flex flex-col gap-4 lg:w-2/4'>
                 <div>
-                    <span className=' text-blue-600 font-semibold'>Casa Mexicali</span>
-                    <h1 className='text-3xl font-bold mt-50'>5 bedrooms · 3 bathrooms · Heated Pool</h1>
+                    <span className=' text-blue-600 font-semibold'>Coobowie Waters</span>
+                    <h1 className='text-3xl font-bold mt-50'>5 bedrooms · 4 bathrooms · Heated Spa</h1>
                 </div>
                 <p className='text-gray-700'>
-                A perfect family holiday home with a heated pool. Casa Mexicali is the ideal property for a family holiday, complete with 5 bedrooms, 3 bathrooms and a great games room with pool table and a seperate lounge area both opening to the outdoor area with a BBQ and access to the heated pool.<br />  <br />
+                A perfect family holiday home with water vistas that will take your breath away. This is the perfect 5 bedroom, 4 bathroom home for a family getaway, a corporate stay or just a relaxing getaway with friends.
 
-The kitchen, dining and entertainment room open all into one which makes this the perfect space for you to be in the thick of things while on holiday. You can be preparing a family meal in the kitchen while watching the kids have a game of pool or just a short stroll down the hallway you will be in the separate lounge/TV Area. <br /> <br />
+The property boasts a large sun drenched pool and an outdoor heated spa with views to the large waterway it sits on.
 
-The lounge and TV room have views to the outdoor heated pool and waterfront, these spaces merge together with the BBQ area and undercover outdoor lounge and dining. You can also access the outdoor area from the Pool Table and Games room.
+The undercover outdoor deck at this property is one of a kind, with an outdoor dining table, outdoor lounge, BBQ and even a large bi-fold kitchen window that opens out with a servery bar – you can check in and do not need to leave during your stay.
                 </p>
-                <div className="ml-20">
+                
+                <h6 className=' text-2xl font-semibold'>$ 3.200,000.00</h6>
+                <div className='flex flex-row items-center gap-12'>
+                    
+                    <button className=' bg-blue-800 text-white font-semibold py-3 px-16 rounded-xl h-full'>Enquire Now!!</button>
+                    <a href='/'>
+                    <button  className=' bg-blue-800 text-white font-semibold py-3 px-16 rounded-xl h-full'>Back to Home</button>
+                    </a>
+                </div>
+
+
+                <div className="ml-20 mt-0 mb-10">
+                    <h1 className="mb-4 font-semibold  w-15 px-20  ">Where the house is located!</h1>
                 <MapContainer
         center={[53.35, 18.8]}
         zoom={1}
         scrollWheelZoom={true}
         style={{
-            height: "50vh",
-            width: "75%",
+            height: "35vh",
+            width: "80%",
             
                  
             zIndex: 0,           
@@ -67,14 +79,6 @@ The lounge and TV room have views to the outdoor heated pool and waterfront, the
            <GeoCoderMarker address={'${address} ${city} ${country}'} />
            
         </MapContainer>
-                </div>
-                <h6 className=' text-2xl font-semibold'>$ 2.500000.00</h6>
-                <div className='flex flex-row items-center gap-12'>
-                    
-                    <button className=' mb-20 bg-blue-800 text-white font-semibold py-3 px-16 rounded-xl h-full'>Enquire Now!!</button>
-                    <a href='/'>
-                    <button  className=' mb-20 bg-blue-800 text-white font-semibold py-3 px-16 rounded-xl h-full'>Back to Home</button>
-                    </a>
                 </div>
 
             </div>
