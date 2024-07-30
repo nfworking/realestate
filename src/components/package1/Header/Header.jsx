@@ -40,7 +40,7 @@ addNotification({
           >
             <a href="/home/">Home</a>
             
-            <a href="/houselist/">Residencies</a> 
+            <a href="/houselist/">Residencies</a> <br />
             <a href="/contact-us/">Contact Us</a>
             <a href="/about/">About</a>
             <button onClick={clickToNotify} className="button">

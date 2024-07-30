@@ -1,6 +1,7 @@
 import { convertNeSwToNwSe } from 'google-map-react';
 import React, { useState } from 'react';
-import Maps from "../maps/maps";
+import Maps from "../maps/maps";;
+import CountUp from "react-countup";
 
 import {MapContainer, TileLayer,} from 'react-leaflet';
 import GeoCoderMarker from "./GeoCodeMarker/GeoCodeMarker";
@@ -51,7 +52,7 @@ The beautiful open plan living, dining and kitchen area overlooks the pool and w
 The views of the Surfers Paradise skyline by night will enchant you while the modern decor and tasteful polished timber floors add that touch of elegance with a relaxed feeling.  The home is fully air-conditioned for your comfort.
                 </p>
                 
-                <h6 className=' text-2xl font-semibold'>$ 10.500000.00</h6>
+                <h6 className=' text-2xl font-semibold'><span>$</span> <CountUp start={0} end={4005400} duration={4} /></h6>
                 <div className='flex flex-row items-center gap-12'>
                     
                     <button className=' bg-blue-800 text-white font-semibold py-3 px-16 rounded-xl h-full'>Enquire Now!!</button>
@@ -65,7 +66,7 @@ The views of the Surfers Paradise skyline by night will enchant you while the mo
                     <h1 className="mb-4 font-semibold  w-15 px-20  ">Where the house is located!</h1>
                 <MapContainer
         center={[-28.0057551, 153.4208804]}
-        zoom={1}
+        zoom={9}
         scrollWheelZoom={true}
         style={{
             height: "35vh",

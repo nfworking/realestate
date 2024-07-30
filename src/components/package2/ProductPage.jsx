@@ -1,6 +1,7 @@
 import { convertNeSwToNwSe } from 'google-map-react';
 import React, { useState } from 'react';
 import Maps from "../maps/maps";
+import CountUp from "react-countup";
 
 import {MapContainer, TileLayer,} from 'react-leaflet';
 import GeoCoderMarker from "./GeoCodeMarker/GeoCodeMarker";
@@ -49,7 +50,7 @@ The property boasts a large sun drenched pool and an outdoor heated spa with vie
 The undercover outdoor deck at this property is one of a kind, with an outdoor dining table, outdoor lounge, BBQ and even a large bi-fold kitchen window that opens out with a servery bar – you can check in and do not need to leave during your stay.
                 </p>
                 
-                <h6 className=' text-2xl font-semibold'>$ 3.200,000.00</h6>
+                <h6 className=' text-2xl font-semibold'><span>$</span> <CountUp start={0} end={3200000} duration={4} /></h6>
                 <div className='flex flex-row items-center gap-12'>
                     
                     <button className=' bg-blue-800 text-white font-semibold py-3 px-16 rounded-xl h-full'>Enquire Now!!</button>
