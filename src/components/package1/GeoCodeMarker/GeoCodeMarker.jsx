@@ -20,7 +20,7 @@ const GeoCoderMarker = ({address}) => {
     
     return (
         
-            <Marker position={position} icon={DefaultIcon}>
+            <Marker position={position} icon={DefaultIcon} text="hello">
                 <Popup />
             </Marker>
 
