@@ -61,17 +61,17 @@ The undercover outdoor deck at this property is one of a kind, with an outdoor d
 
                 <div className="ml-20 mt-0 mb-10">
                     <h1 className="mb-4 font-semibold  w-15 px-20  ">Where the house is located!</h1>
-                <MapContainer
-        center={[53.35, 18.8]}
-        zoom={1}
+<MapContainer
+        center={[-28.0206097, 153.415578]}
+        zoom={9}
         scrollWheelZoom={true}
         style={{
             height: "35vh",
-            width: "80%",
-            
+            width: "80%",        
                  
             zIndex: 0,           
             borderRadius: "2%",
+            backgroundColor: "black",
             
         }}
         >

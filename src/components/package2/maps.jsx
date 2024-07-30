@@ -7,14 +7,15 @@ import GeoCoderMarker from "./GeoCodeMarker/GeoCodeMarker";
 const Housemap = ({address, city, country}) => {
     return (
         <MapContainer
-        center={[53.35, 18.8]}
-        zoom={1}
+        center={[-28.0318444, 153.4129974]}
+        zoom={8}
         scrollWheelZoom={true}
         style={{
             height: "20vh",
             width: "60%",
             marginRight: "100px",
-            zIndex: 0,           
+            zIndex: 0,  
+            backgroundColor: "black",         
             borderRadius: "2%",
             
         }}

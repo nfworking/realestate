@@ -6,6 +6,7 @@ import icon from "leaflet/dist/images/marker-icon.png"
 import iconShadow from "leaflet/dist/images/marker-shadow.png"
 
 
+
 let DefaultIcon = L.icon ({
     iconUrl : icon,
     shadowUrl : iconShadow
@@ -20,7 +21,7 @@ const GeoCoderMarker = ({address}) => {
     
     return (
         
-            <Marker position={position} icon={DefaultIcon} text="hello">
+            <Marker position={position} icon={DefaultIcon} >
                 <Popup />
             </Marker>
 

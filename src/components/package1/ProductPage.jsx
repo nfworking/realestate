@@ -64,7 +64,7 @@ The lounge and TV room have views to the outdoor heated pool and waterfront, the
                     <h1 className="mb-4 font-semibold  w-15 px-20  ">Where the house is located!</h1>
                 <MapContainer
         center={[-28.0206097, 153.415578]}
-        zoom={10}
+        zoom={9}
         scrollWheelZoom={true}
         style={{
             height: "35vh",
