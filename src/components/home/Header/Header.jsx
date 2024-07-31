@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../Header/Header.css"
+import "../Header/Header.css";
 import { BiMenuAltRight } from "react-icons/bi";
 import { getMenuStyles } from "../utils/common";
 import useHeaderColor from "../hooks/useHeaderColor";

@@ -1,8 +1,27 @@
 import toast from "react-hot-toast";
 import "./contact.css";
+import addNotification from "react-push-notification";
+
+const clickToNotify = ()=>{
+  addNotification({
+    title: 'TheSurgeHomes',
+    message: 'Your request has been sent, please check your emails',
+    duration: 4000,
+    native: true,
+    icon: './house.ico'
+  });
+  };
 
 export default function Contact() {
   const onSubmit = async (event) => {
+    addNotification({
+      title: 'TheSurgeHomes',
+      message: 'Your Message has been sent',
+      duration: 10000,
+      native: true,
+      icon: '/r1.png'
+    });
+
     event.preventDefault();
     toast("Sending...", {
       style: {
@@ -22,7 +41,7 @@ export default function Contact() {
     const data = await response.json();
 
     if (data.success) {
-      toast("Email sent successfully", {
+      toast("Message sent successfully", {
         icon: "👏",
         style: {
           borderRadius: "10px",
@@ -41,7 +60,8 @@ export default function Contact() {
     <div className="contact">
       <div className="ct-form">
         <span>Contact form</span>
-        <form className="form" onSubmit={onSubmit}>
+        <form className="form" onSubmit={onSubmit
+        } >
           <input type="text" placeholder="Name" name="name" required />
           <input type="email" placeholder="Email" name="email" required />
           <input type="text" placeholder="Subject" name="subject" required />
@@ -50,8 +70,11 @@ export default function Contact() {
             placeholder="Sample message"
             required
           ></textarea>
-          <button onlick={Notification} type="submit">Submit</button>
+          <button type="submit">Submit</button>
         </form>
+        <a href="/">
+          <button>Back to Home</button>
+          </a>        
       </div>
     </div>
   );
