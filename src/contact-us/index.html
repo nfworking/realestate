@@ -1,42 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>House/Contact Request</title>
-</head>
-<header>
-    <div class="nav container">
-        <a href="calsestate.vercel.app" src="img/logo.png"  class="logo">The Surge</a>
-    </div>
-</header>
-<body>    
-    <div class="contact-container">
-        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
-            <div class="contact-left-title">
-                <h2>Get into contact</h2>
-                <hr>
-            </div>
-            <input type="hidden" name="access_key" value="64ca0c2f-2375-4c52-88ae-8b800d0c0c67">
-            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
-            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
-            <button type="submit">Send Request<img src="/assets/arrow_icon.png" alt=""></button>            
-        </form>        
-    </div>    
-</body>
-<footer>
-    <div class="footer-content">
-        <h2>The Surge</h2>
-        <p>Copyright &copy; The Surge 2024</p>
-        <ul class="socials">
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-github"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="calsestate.vercel.app">Back to home</i></a></li>
-        </ul>
-    </div>
-</footer>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web3forms</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./main.jsx"></script>
+  </body>
 </html>
