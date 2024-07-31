@@ -3,7 +3,7 @@ import "./Contact.css";
 import { MdCall } from "react-icons/md";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import {HiChatBubbleBottomCenter} from 'react-icons/hi2';
-import contactimg from "../public/hero-image.png";
+import contactimg from "/contact-hero.jpg";
 const Contact = () => {
   return (
     <div id="contact-us" className="c-wrapper">

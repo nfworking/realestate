@@ -4,7 +4,7 @@ import { BiMenuAltRight } from "react-icons/bi";
 import { getMenuStyles } from "../utils/common";
 import useHeaderColor from "../hooks/useHeaderColor";
 import OutsideClickHandler from "react-outside-click-handler";
-import companyimg from "../public/logo.png";
+import companyimg from "/house.png"
 import addNotification from "react-push-notification";
 
 const Header = () => {
