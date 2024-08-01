@@ -77,10 +77,9 @@ export default function Testimonals() {
                   />
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Similique praesentium voluptate natus sunt, molestiae dolorum?
+                  One of the best real estate company's out there. They have soo much information and many helpful tips
                 </p>
-                <h6 className="review-by">- Lorem ipsum dolor sit amet.</h6>
+                <h6 className="review-by">- Mr Newton</h6>
               </div>
             </SwiperSlide>
 
@@ -100,10 +99,9 @@ export default function Testimonals() {
                   />
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio, animi libero facere eligendi illo consectetur!
+                One of the best real estate company's out there. They have soo much information and many helpful tips
                 </p>
-                <h6 className="review-by">- Lorem ipsum dolor sit amet.</h6>
+                <h6 className="review-by">- Aydn Chung</h6>
               </div>
             </SwiperSlide>
 
@@ -122,10 +120,9 @@ export default function Testimonals() {
                   />
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nesciunt id quaerat, quas minus cum provident?
+                One of the best real estate company's out there. They have soo much information and many helpful tips
                 </p>
-                <h6 className="review-by">- Lorem ipsum dolor sit amet.</h6>
+                <h6 className="review-by">- Ray Lui</h6>
               </div>
             </SwiperSlide>
 
@@ -145,10 +142,9 @@ export default function Testimonals() {
                   />
                 </div>
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Cumque culpa suscipit, ad iure esse nihil?
+                One of the best real estate company's out there. They have soo much information and many helpful tips
                 </p>
-                <h6 className="review-by">- Lorem ipsum dolor sit amet. </h6>
+                <h6 className="review-by">- Miles Jayden </h6>
               </div>
             </SwiperSlide>
 
@@ -167,10 +163,9 @@ export default function Testimonals() {
                   />
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                  dicta, quibusdam dolor eligendi quaerat nulla.
+                One of the best real estate company's out there. They have soo much information and many helpful tips
                 </p>
-                <h6 className="review-by">- Lorem ipsum dolor sit amet. </h6>
+                <h6 className="review-by">- Me </h6>
               </div>
             </SwiperSlide>
 
@@ -189,100 +184,12 @@ export default function Testimonals() {
                   />
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                  dicta, quibusdam dolor eligendi quaerat nulla.
-                </p>
-                <h6 className="review-by">- Lorem ipsum dolor sit amet. </h6>
+                One of the best real estate company's out there. They have soo much information and many helpful tips</p>
+                <h6 className="review-by">- Tony </h6>
               </div>
             </SwiperSlide>
 
-            <SwiperSlide className="swiper-slide">
-              <div
-                style={{
-                  paddingRight: 20,
-                  paddingLeft: 20,
-                }}
-              >
-                <div className="testimonials-profile-circle">
-                  <img
-                    src={avatarVImg}
-                    alt="testimonial-avatar"
-                    className="testimonial-avatar"
-                  />
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                  dicta, quibusdam dolor eligendi quaerat nulla.
-                </p>
-                <h6 className="review-by">- Lorem ipsum dolor sit amet. </h6>
-              </div>
-            </SwiperSlide>
             
-            <SwiperSlide className="swiper-slide">
-              <div
-                style={{
-                  paddingRight: 20,
-                  paddingLeft: 20,
-                }}
-              >
-                <div className="testimonials-profile-circle">
-                  <img
-                    src={avatarVImg}
-                    alt="testimonial-avatar"
-                    className="testimonial-avatar"
-                  />
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                  dicta, quibusdam dolor eligendi quaerat nulla.
-                </p>
-                <h6 className="review-by">- Lorem ipsum dolor sit amet. </h6>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide className="swiper-slide">
-              <div
-                style={{
-                  paddingRight: 20,
-                  paddingLeft: 20,
-                }}
-              >
-                <div className="testimonials-profile-circle">
-                  <img
-                    src={avatarVImg}
-                    alt="testimonial-avatar"
-                    className="testimonial-avatar"
-                  />
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                  dicta, quibusdam dolor eligendi quaerat nulla.
-                </p>
-                <h6 className="review-by">- Lorem ipsum dolor sit amet. </h6>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide className="swiper-slide">
-              <div
-                style={{
-                  paddingRight: 20,
-                  paddingLeft: 20,
-                }}
-              >
-                <div className="testimonials-profile-circle">
-                  <img
-                    src={avatarVImg}
-                    alt="testimonial-avatar"
-                    className="testimonial-avatar"
-                  />
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                  dicta, quibusdam dolor eligendi quaerat nulla.
-                </p>
-                <h6 className="review-by">- Lorem ipsum dolor sit amet. </h6>
-              </div>
-            </SwiperSlide>
 
 
           </Swiper>
