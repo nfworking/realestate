@@ -2,6 +2,7 @@ import toast from "react-hot-toast";
 import "./contact.css";
 import addNotification from "react-push-notification";
 
+
 const clickToNotify = ()=>{
   addNotification({
     title: 'TheSurgeHomes',
@@ -57,6 +58,7 @@ export default function Contact() {
   };
 
   return (
+    <div className="something">
     <div className="contact">
       <div className="ct-form">
         <span>Contact form</span>
@@ -76,6 +78,8 @@ export default function Contact() {
           <button>Back to Home</button>
           </a>        
       </div>
+    </div>
+    
     </div>
   );
 }

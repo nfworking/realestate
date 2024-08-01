@@ -5,11 +5,17 @@
   justify-content: center;
   flex-direction: column;
   gap: 20px;
+  
 }
+
 span {
   font-size: 30px;
   font-weight: bold;
-  color: aliceblue;
+  color: orange;
+ 
+  border-radius: 5%;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .form {
   display: flex;

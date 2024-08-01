@@ -4,8 +4,11 @@ import { MdCall } from "react-icons/md";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import {HiChatBubbleBottomCenter} from 'react-icons/hi2';
 import contactimg from "/contact-hero.jpg";
+import Paris from "/paris.jpg";
 const Contact = () => {
   return (
+    
+       
     <div id="contact-us" className="c-wrapper">
       <div className="paddings innerWidth flexCenter c-container">
         {/* left side */}
@@ -86,6 +89,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 
