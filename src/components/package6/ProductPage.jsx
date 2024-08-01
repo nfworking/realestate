@@ -1,6 +1,7 @@
 import { convertNeSwToNwSe } from 'google-map-react';
 import React, { useState } from 'react';
 import Maps from "../maps/maps";
+import CountUp from "react-countup";
 
 import {MapContainer, TileLayer,} from 'react-leaflet';
 import GeoCoderMarker from "./GeoCodeMarker/GeoCodeMarker";
@@ -9,10 +10,10 @@ const ProductPage = () => {
 
 
     const [images, setImages] = useState({
-        img1 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/Mexicali-1-1024x686.jpg",
-        img2 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/006_Open2view_ID784672-4_Mexicali_Court-1024x684.jpg",
-        img3 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/005_Open2view_ID784672-4_Mexicali_Court-1024x684.jpg",
-        img4 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/007_Open2view_ID784672-4_Mexicali_Court-1024x684.jpg"
+        img1 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2018/02/Haven-On-Holland-Broadbeach-Waters-Luxury-Family-Holiday-Home-Ultimate-Luxury-1.jpg",
+        img2 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2018/02/Haven-On-Holland-Broadbeach-Waters-Luxury-Family-Holiday-Home-Deisgner-Kitchen.jpg",
+        img3 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2018/02/Haven-On-Holland-Broadbeach-Waters-Luxury-Family-Holiday-Home-Giant-Chess.jpg",
+        img4 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2018/02/Haven-On-Holland-Broadbeach-Waters-Luxury-Family-Holiday-Home-Canal-Tropical-Garden.jpg"
     })
 
     const [activeImg, setActiveImage] = useState(images.img1)
@@ -38,18 +39,18 @@ const ProductPage = () => {
             {/* ABOUT */}
             <div className='mt-10 flex flex-col gap-4 lg:w-2/4'>
                 <div>
-                    <span className=' text-blue-600 font-semibold'>Casa Mexicali</span>
-                    <h1 className='text-3xl font-bold mt-50'>5 bedrooms · 3 bathrooms · Heated Pool</h1>
+                    <span className=' text-blue-600 font-semibold'>Haven On Holland</span>
+                    <h1 className='text-3xl font-bold mt-50'>7 bedrooms · 5 bathrooms</h1>
                 </div>
                 <p className='text-gray-700'>
-                A perfect family holiday home with a heated pool. Casa Mexicali is the ideal property for a family holiday, complete with 5 bedrooms, 3 bathrooms and a great games room with pool table and a seperate lounge area both opening to the outdoor area with a BBQ and access to the heated pool.<br />  <br />
+                This stunning home has been designed with supreme luxury in mind with a myriad of options for guests. The home is ideally situated in a sought after position of Broadbeach Waters and has everything you need to relax for all your holiday needs with family, friends or perfect for business or corporate retreats. With 7 large bedrooms and 5 designer bathrooms, multiple indoor and outdoor spaces there is no end to the luxuriousness and options that this home has to offer.
 
-The kitchen, dining and entertainment room open all into one which makes this the perfect space for you to be in the thick of things while on holiday. You can be preparing a family meal in the kitchen while watching the kids have a game of pool or just a short stroll down the hallway you will be in the separate lounge/TV Area. <br /> <br />
+The oversized poolside alfresco area has an inbuilt BBQ overlooking the crystal blue pool and deck, quiet waterfront and lush grass area.
 
-The lounge and TV room have views to the outdoor heated pool and waterfront, these spaces merge together with the BBQ area and undercover outdoor lounge and dining. You can also access the outdoor area from the Pool Table and Games room.
+This home optimises the concept of indoor/outdoor living. The stylish open plan kitchen with butlers pantry and wine room looking over the lounge and dining area is almost doubled when you open up the sliding stacked doors onto the undercover outdoor area with built in BBQ and lounges. All of this looks over the manicured lawn, pool area and deck and quiet waterfront.
                 </p>
                 
-                <h6 className=' text-2xl font-semibold'>$ 2.500000.00</h6>
+                <h6 className=' text-2xl font-semibold'><span>$</span> <CountUp start={0} end={8500000} duration={4} /></h6>
                 <div className='flex flex-row items-center gap-12'>
                     
                     <button className=' bg-blue-800 text-white font-semibold py-3 px-16 rounded-xl h-full'>Enquire Now!!</button>
@@ -62,8 +63,8 @@ The lounge and TV room have views to the outdoor heated pool and waterfront, the
                 <div className="ml-20 mt-0 mb-10">
                     <h1 className="mb-4 font-semibold  w-15 px-20  ">Where the house is located!</h1>
                 <MapContainer
-        center={[53.35, 18.8]}
-        zoom={1}
+        center={[-28.02762, 153.41599]}
+        zoom={9}
         scrollWheelZoom={true}
         style={{
             height: "35vh",

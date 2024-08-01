@@ -1,6 +1,7 @@
 import { convertNeSwToNwSe } from 'google-map-react';
 import React, { useState } from 'react';
 import Maps from "../maps/maps";
+import CountUp from "react-countup";
 
 import {MapContainer, TileLayer,} from 'react-leaflet';
 import GeoCoderMarker from "./GeoCodeMarker/GeoCodeMarker";
@@ -9,10 +10,10 @@ const ProductPage = () => {
 
 
     const [images, setImages] = useState({
-        img1 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/Mexicali-1-1024x686.jpg",
-        img2 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/006_Open2view_ID784672-4_Mexicali_Court-1024x684.jpg",
-        img3 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/005_Open2view_ID784672-4_Mexicali_Court-1024x684.jpg",
-        img4 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/007_Open2view_ID784672-4_Mexicali_Court-1024x684.jpg"
+        img1 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2014/02/the-lotus-gold-coast-holiday-rentals.jpg",
+        img2 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2014/02/the-lotus-outdoor-dining.jpg",
+        img3 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2014/02/the-lotus-expansive-outdoor-living.jpg",
+        img4 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2014/02/The-Lotus-Master.jpg"
     })
 
     const [activeImg, setActiveImage] = useState(images.img1)
@@ -38,18 +39,20 @@ const ProductPage = () => {
             {/* ABOUT */}
             <div className='mt-10 flex flex-col gap-4 lg:w-2/4'>
                 <div>
-                    <span className=' text-blue-600 font-semibold'>Casa Mexicali</span>
-                    <h1 className='text-3xl font-bold mt-50'>5 bedrooms · 3 bathrooms · Heated Pool</h1>
+                    <span className=' text-blue-600 font-semibold'>The Lotus</span>
+                    <h1 className='text-3xl font-bold mt-50'>6 bedrooms · 3.5 bathrooms</h1>
                 </div>
                 <p className='text-gray-700'>
-                A perfect family holiday home with a heated pool. Casa Mexicali is the ideal property for a family holiday, complete with 5 bedrooms, 3 bathrooms and a great games room with pool table and a seperate lounge area both opening to the outdoor area with a BBQ and access to the heated pool.<br />  <br />
+                This waterfront home is designed to bring the outdoors indoors creating the best of holiday accommodation on the Gold Coast. The relaxing ambience is suited especially for entertaining by the pool with dedicated areas that allow you to relax & unwind with a fine wine and great company.
 
-The kitchen, dining and entertainment room open all into one which makes this the perfect space for you to be in the thick of things while on holiday. You can be preparing a family meal in the kitchen while watching the kids have a game of pool or just a short stroll down the hallway you will be in the separate lounge/TV Area. <br /> <br />
+This delightful property is state of tranquility. Once you enter you will simply revel in the lifestyle atmosphere that this residence provides. 
 
-The lounge and TV room have views to the outdoor heated pool and waterfront, these spaces merge together with the BBQ area and undercover outdoor lounge and dining. You can also access the outdoor area from the Pool Table and Games room.
+With 6 bedrooms, 3 bathrooms, a powder room and large entertaining areas this residence is guaranteed to accommodate up to 14 people with ease.
+
+The large open plan living and entertaining areas are situated overlooking the beautiful pool.
                 </p>
                 
-                <h6 className=' text-2xl font-semibold'>$ 2.500000.00</h6>
+                <h6 className=' text-2xl font-semibold'><span>$</span> <CountUp start={0} end={7500000} duration={4} /></h6>
                 <div className='flex flex-row items-center gap-12'>
                     
                     <button className=' bg-blue-800 text-white font-semibold py-3 px-16 rounded-xl h-full'>Enquire Now!!</button>
@@ -62,8 +65,8 @@ The lounge and TV room have views to the outdoor heated pool and waterfront, the
                 <div className="ml-20 mt-0 mb-10">
                     <h1 className="mb-4 font-semibold  w-15 px-20  ">Where the house is located!</h1>
                 <MapContainer
-        center={[53.35, 18.8]}
-        zoom={1}
+        center={[-28.03114, 153.425645]}
+        zoom={9}
         scrollWheelZoom={true}
         style={{
             height: "35vh",

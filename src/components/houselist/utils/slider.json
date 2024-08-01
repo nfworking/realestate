@@ -32,19 +32,19 @@
     "url" : "/package4/"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "/r2.png",
-    "outcome": "Learn More",
+    "name": "The Lotus",
+    "price": "7500000",
+    "detail": "6 bedrooms · 3.5 bathrooms",
+    "image": "https://www.eliteholidayhomes.com.au/wp-content/uploads/2014/02/the-lotus-gold-coast-holiday-rentals.jpg",
+    "outcome": "Explore",
     "url" : "/package5/"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "/r3.png",
-    "outcome": "Learn More",
+    "name": "Haven On Holland",
+    "price": "8500000",
+    "detail": " 7 bedrooms · 5 bathrooms",
+    "image": "https://www.eliteholidayhomes.com.au/wp-content/uploads/2018/02/Haven-On-Holland-Broadbeach-Waters-Luxury-Family-Holiday-Home-Ultimate-Luxury-1.jpg",
+    "outcome": "Explore",
     "url" : "/package6/"
   }
 ]
