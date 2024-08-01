@@ -1,6 +1,7 @@
 import { convertNeSwToNwSe } from 'google-map-react';
 import React, { useState } from 'react';
 import Maps from "../maps/maps";
+import CountUp from "react-countup";
 
 import {MapContainer, TileLayer,} from 'react-leaflet';
 import GeoCoderMarker from "./GeoCodeMarker/GeoCodeMarker";
@@ -9,10 +10,10 @@ const ProductPage = () => {
 
 
     const [images, setImages] = useState({
-        img1 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/Mexicali-1-1024x686.jpg",
-        img2 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/006_Open2view_ID784672-4_Mexicali_Court-1024x684.jpg",
-        img3 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/005_Open2view_ID784672-4_Mexicali_Court-1024x684.jpg",
-        img4 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/007_Open2view_ID784672-4_Mexicali_Court-1024x684.jpg"
+        img1 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2020/03/Coral_Sands_Luxury_Waterfront_relaxing_pool.jpg",
+        img2 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2020/03/Coral_Sands_Luxury_Waterfront_outdoor_dining.jpg",
+        img3 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2020/03/Coral_Sands_Luxury_Waterfront_back_pool.jpg",
+        img4 : "https://www.eliteholidayhomes.com.au/wp-content/uploads/2020/03/Coral_Sands_Luxury_Waterfront_master_balcony.jpg"
     })
 
     const [activeImg, setActiveImage] = useState(images.img1)
@@ -38,18 +39,18 @@ const ProductPage = () => {
             {/* ABOUT */}
             <div className='mt-10 flex flex-col gap-4 lg:w-2/4'>
                 <div>
-                    <span className=' text-blue-600 font-semibold'>Casa Mexicali</span>
-                    <h1 className='text-3xl font-bold mt-50'>5 bedrooms · 3 bathrooms · Heated Pool</h1>
+                    <span className=' text-blue-600 font-semibold'>Coral Sands</span>
+                    <h1 className='text-3xl font-bold mt-50'>8 bedrooms · 5 bathrooms</h1>
                 </div>
                 <p className='text-gray-700'>
-                A perfect family holiday home with a heated pool. Casa Mexicali is the ideal property for a family holiday, complete with 5 bedrooms, 3 bathrooms and a great games room with pool table and a seperate lounge area both opening to the outdoor area with a BBQ and access to the heated pool.<br />  <br />
+                Waterfront home showcasing a contemporary coastal design, with spacious, elegant interiors and high ceilings. Soaking up vast water views, natural sunlight and peaceful surroundings. Multiple entertainment spaces all set against a backdrop of the scenic Gold Coast skyline. This large 8 bedroom home has all that you need for an ideal family holiday!
 
-The kitchen, dining and entertainment room open all into one which makes this the perfect space for you to be in the thick of things while on holiday. You can be preparing a family meal in the kitchen while watching the kids have a game of pool or just a short stroll down the hallway you will be in the separate lounge/TV Area. <br /> <br />
+Tranquil water views are enjoyed through the large glass sliding doors that span the open plan living and dining areas.  Sit back and relax in the light filled living area while watching your friends and family enjoy the pool.  By night appreciate the skyline lights of Broadbeach and Surfers Paradise as you unwind on holiday.
 
-The lounge and TV room have views to the outdoor heated pool and waterfront, these spaces merge together with the BBQ area and undercover outdoor lounge and dining. You can also access the outdoor area from the Pool Table and Games room.
+Perfectly positioned to access the very best of the central Gold Coast, Coral Sands is located in  Broadbeach Waters and is in close proximity to iconic dining and retail precinct, Broadbeach, as well as the beach, Star Casino, Gold Coast Convention and Exhibition Centre and Pacific Fair shopping centre.
                 </p>
                 
-                <h6 className=' text-2xl font-semibold'>$ 2.500000.00</h6>
+                <h6 className=' text-2xl font-semibold'><span>$</span> <CountUp start={0} end={9000000} duration={4} /></h6>
                 <div className='flex flex-row items-center gap-12'>
                     
                     <button className=' bg-blue-800 text-white font-semibold py-3 px-16 rounded-xl h-full'>Enquire Now!!</button>
@@ -62,8 +63,8 @@ The lounge and TV room have views to the outdoor heated pool and waterfront, the
                 <div className="ml-20 mt-0 mb-10">
                     <h1 className="mb-4 font-semibold  w-15 px-20  ">Where the house is located!</h1>
                 <MapContainer
-        center={[53.35, 18.8]}
-        zoom={1}
+        center={[-28.030884, 153.422302]}
+        zoom={9}
         scrollWheelZoom={true}
         style={{
             height: "35vh",

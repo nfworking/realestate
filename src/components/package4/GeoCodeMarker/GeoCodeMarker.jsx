@@ -16,12 +16,12 @@ L.Marker.prototype.options.icon = DefaultIcon
 
 const GeoCoderMarker = ({address}) => {
     const map = useMap()
-    const [position, setPosition] = useState([60, 19])
-    const [position2, setPosition2] = useState([604, 139])
+    const [position, setPosition] = useState([-28.030884, 153.422302])
+    
     return (
-        <Marker position={position2} icon={DefaultIcon}>
+        
             <Marker position={position} icon={DefaultIcon}>
-            </Marker>
+          
 <Popup/>
         </Marker>
 
