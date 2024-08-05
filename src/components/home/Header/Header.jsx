@@ -38,6 +38,7 @@ addNotification({
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
+
             <a href="/home/">Home</a>
             <a href="/houselist/">Residencies</a>
             <a href="/contact-us/">Contact Us</a>
@@ -45,6 +46,7 @@ addNotification({
             <button onClick={clickToNotify} className="button">
               <a >Contact</a>
             </button>
+            
           </div>
         </OutsideClickHandler>
 

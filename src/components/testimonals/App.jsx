@@ -99,7 +99,7 @@ export default function Testimonals() {
                   />
                 </div>
                 <p>
-                One of the best real estate company's out there. They have soo much information and many helpful tips
+                SurgeHomes has the best resources avaiable to you and has the best houses avaiable on the current market
                 </p>
                 <h6 className="review-by">- Aydn Chung</h6>
               </div>
@@ -120,7 +120,7 @@ export default function Testimonals() {
                   />
                 </div>
                 <p>
-                One of the best real estate company's out there. They have soo much information and many helpful tips
+               They help us soo much to buy our first home, they have affordable homes that have luxry spaces in them
                 </p>
                 <h6 className="review-by">- Ray Lui</h6>
               </div>

@@ -62,7 +62,7 @@ body {
 }
 .swiper-pagination-bullet-active {
   background-color: #ffffff !important;
-  border: 2px solid orange !important;
+  border: 2px solid transparent !important;
   /* padding: 1px !important; */
   border-radius: 1px !important;
   /* padding-left: 5px !important; */
@@ -72,7 +72,7 @@ body {
 }
 .swiper-pagination-bullet {
   background-color: #ffffff !important;
-  border: 2px solid orange!important;
+  border: 2px solid transparent!important;
   /* padding: 1px !important; */
   border-radius: 1px !important;
   /* padding-left: 5px !important; */
