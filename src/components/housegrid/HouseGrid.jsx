@@ -5,6 +5,7 @@ import data from "../houselist/utils/slider.json";
 import { CardActionArea } from "@mui/material";
 import CardMedia from "@mui/material/CardMedia";
 import { Button, CardActions } from '@mui/material';
+import SendIcon from '@mui/icons-material/Send';
 
 
 const HouseGrid = () => {
@@ -33,16 +34,17 @@ const HouseGrid = () => {
                     <Typography variant="body2" color="white">
                       {result.detail}
                     </Typography>
-                    <Typography variant="body2" color="white">
+                    <Typography variant="body2" color="white">$ 
                       {result.price}
                     </Typography>
                   </CardContent>
+                  
                 </CardActionArea>
-                <CardActions>
-        <Button size="small" color="primary" href={result.url}> 
-          Read More
-        </Button>
+                <CardActions>      
       </CardActions>
+      <Button variant="contained" href={result.url} endIcon={<SendIcon />}>
+  Read More
+</Button>
               </Card>
             </Grid>
           ))}
