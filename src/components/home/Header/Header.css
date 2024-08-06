@@ -1,7 +1,7 @@
 .h-wrapper {
-  z-index: 99;
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
 }
 .h-container {
   padding-top: 1rem;

@@ -32,9 +32,7 @@ export default function Testimonals() {
           <Swiper
             loop={true}
             loopFillGroupWithBlank={true}
-            pagination={{
-              clickable: true,
-            }}
+            
             autoplay={{ delay: 3000 }}
             navigation={true}
             modules={[EffectCoverflow, Pagination, Navigation]}

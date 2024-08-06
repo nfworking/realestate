@@ -10,7 +10,7 @@ const Header = () => {
   const headerColor = useHeaderColor();
 
   return (
-    <section className="h-wrapper" style={{ background: headerColor }}>
+    <section className="h-wrapper" style={{ backgroundColor: "blue" }}>
       <div className="flexCenter innerWidth paddings h-container">
         {/* logo */}
         <img src="/logo.png" alt="logo" width={100} />
