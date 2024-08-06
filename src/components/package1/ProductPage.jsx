@@ -42,7 +42,7 @@ const ProductPage = () => {
                     <span className=' text-blue-600 font-semibold'>Casa Mexicali</span>
                     <h1 className='text-3xl font-bold mt-50'>5 bedrooms · 3 bathrooms · Heated Pool</h1>
                 </div>
-                <p className='text-gray-700'>
+                <p className='text-white-700'>
                 A perfect family holiday home with a heated pool. Casa Mexicali is the ideal property for a family holiday, complete with 5 bedrooms, 3 bathrooms and a great games room with pool table and a seperate lounge area both opening to the outdoor area with a BBQ and access to the heated pool.
 
 The kitchen, dining and entertainment room open all into one which makes this the perfect space for you to be in the thick of things while on holiday. You can be preparing a family meal in the kitchen while watching the kids have a game of pool or just a short stroll down the hallway you will be in the separate lounge/TV Area.

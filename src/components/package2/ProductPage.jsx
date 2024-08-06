@@ -42,7 +42,7 @@ const ProductPage = () => {
                     <span className=' text-blue-600 font-semibold'>Coobowie Waters</span>
                     <h1 className='text-3xl font-bold mt-50'>5 bedrooms · 4 bathrooms · Heated Spa</h1>
                 </div>
-                <p className='text-gray-700'>
+                <p className='text-white-700'>
                 A perfect family holiday home with water vistas that will take your breath away. This is the perfect 5 bedroom, 4 bathroom home for a family getaway, a corporate stay or just a relaxing getaway with friends.
 
 The property boasts a large sun drenched pool and an outdoor heated spa with views to the large waterway it sits on.

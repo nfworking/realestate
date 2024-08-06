@@ -42,7 +42,7 @@ const ProductPage = () => {
                     <span className=' text-blue-600 font-semibold'>The Lotus</span>
                     <h1 className='text-3xl font-bold mt-50'>6 bedrooms · 3.5 bathrooms</h1>
                 </div>
-                <p className='text-gray-700'>
+                <p className='text-white-700'>
                 This waterfront home is designed to bring the outdoors indoors creating the best of holiday accommodation on the Gold Coast. The relaxing ambience is suited especially for entertaining by the pool with dedicated areas that allow you to relax & unwind with a fine wine and great company.
 
 This delightful property is state of tranquility. Once you enter you will simply revel in the lifestyle atmosphere that this residence provides. 

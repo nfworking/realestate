@@ -42,7 +42,7 @@ const ProductPage = () => {
                     <span className=' text-blue-600 font-semibold'>Coral Sands</span>
                     <h1 className='text-3xl font-bold mt-50'>8 bedrooms · 5 bathrooms</h1>
                 </div>
-                <p className='text-gray-700'>
+                <p className='text-white-700'>
                 Waterfront home showcasing a contemporary coastal design, with spacious, elegant interiors and high ceilings. Soaking up vast water views, natural sunlight and peaceful surroundings. Multiple entertainment spaces all set against a backdrop of the scenic Gold Coast skyline. This large 8 bedroom home has all that you need for an ideal family holiday!
 
 Tranquil water views are enjoyed through the large glass sliding doors that span the open plan living and dining areas.  Sit back and relax in the light filled living area while watching your friends and family enjoy the pool.  By night appreciate the skyline lights of Broadbeach and Surfers Paradise as you unwind on holiday.

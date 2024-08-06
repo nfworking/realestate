@@ -6,9 +6,11 @@ import { CardActionArea } from "@mui/material";
 import CardMedia from "@mui/material/CardMedia";
 import { Button, CardActions } from '@mui/material';
 
+
 const HouseGrid = () => {
   return (
     <>
+    
       <Container maxWidth="lg">
         <Typography variant="h4" align="center" style={{ marginTop: "50px" }}>
           Our Houses 🏘️
@@ -16,7 +18,7 @@ const HouseGrid = () => {
         <Grid container spacing={5} style={{ marginTop: "20px" }}>
           {data.map((result, index) => (
             <Grid item xs={12} sm={4} ms={4} key={index}>
-              <Card sx={{ maxWidth: 345 }}>
+              <Card sx={{ maxWidth: 345, color: "white", backgroundColor: "black" }}>
                 <CardActionArea>
                   <CardMedia
                     component="img"
@@ -24,21 +26,21 @@ const HouseGrid = () => {
                     image={result.image}
                     alt="green iguana"
                   />
-                  <CardContent>
+                  <CardContent style={{color: "white"}}>
                     <Typography gutterBottom variant="h5" component="div">
                       {result.name}
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                    <Typography variant="body2" color="white">
                       {result.detail}
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                    <Typography variant="body2" color="white">
                       {result.price}
                     </Typography>
                   </CardContent>
                 </CardActionArea>
                 <CardActions>
         <Button size="small" color="primary" href={result.url}> 
-          Share
+          Read More
         </Button>
       </CardActions>
               </Card>

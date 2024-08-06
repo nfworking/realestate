@@ -9,6 +9,10 @@ import Header from "../components/home/Header/Header";
 import Hero from "../components/home/Hero/Hero";
 import Value from "../components/home/Value/Value";
 import Testimonals from "../components/testimonals/App";
+import Box from '@mui/material/Box';
+import LinearProgress from '@mui/material/LinearProgress';
+
+
 
 
 const App = () => {
@@ -17,16 +21,19 @@ const App = () => {
       setLoading(true);
       setTimeout(() => {
         setLoading(false);
-      }, 2000);
+      }, 5000);
     }, []);
 
     return (
       <div className="container">
         {loading ? (
-          <div className="loader-container">
-              <div className="spinner"></div>
-          </div>
+          <div className="loading-container">
+         <Box sx={{ width: '50%' }}>
+      <LinearProgress />
+    </Box>
+         </div>
         ) : (
+          
 <div className="App">
     <Header />
     <Hero />
@@ -39,7 +46,8 @@ const App = () => {
 </div>
 
         )}
-      </div>
+          </div>
+     
     );
   };
 

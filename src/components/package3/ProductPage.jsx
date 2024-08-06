@@ -42,7 +42,7 @@ const ProductPage = () => {
                     <span className=' text-blue-600 font-semibold'>Main River Magic!</span>
                     <h1 className='text-3xl font-bold mt-50'>7 bedrooms · 5 bathrooms</h1>
                 </div>
-                <p className='text-gray-700'>
+                <p className='text-white-700'>
                 A multi level home with commanding wide water views over main river and lots of living space this haven of design, taste and tranquility will have you thinking that you never want the holiday to end!
 
 With seven spacious bedrooms and five bathrooms the floor plan is ideal to give everyone space and privacy. There are four distinctly separate living and entertaining areas making this an ideal home for holidays or corporate retreats.

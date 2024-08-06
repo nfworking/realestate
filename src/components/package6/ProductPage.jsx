@@ -42,7 +42,7 @@ const ProductPage = () => {
                     <span className=' text-blue-600 font-semibold'>Haven On Holland</span>
                     <h1 className='text-3xl font-bold mt-50'>7 bedrooms · 5 bathrooms</h1>
                 </div>
-                <p className='text-gray-700'>
+                <p className='text-white-700'>
                 This stunning home has been designed with supreme luxury in mind with a myriad of options for guests. The home is ideally situated in a sought after position of Broadbeach Waters and has everything you need to relax for all your holiday needs with family, friends or perfect for business or corporate retreats. With 7 large bedrooms and 5 designer bathrooms, multiple indoor and outdoor spaces there is no end to the luxuriousness and options that this home has to offer.
 
 The oversized poolside alfresco area has an inbuilt BBQ overlooking the crystal blue pool and deck, quiet waterfront and lush grass area.
