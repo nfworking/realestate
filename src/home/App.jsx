@@ -2,6 +2,7 @@ import "./App.css";
 import React, { useState, useEffect } from 'react';
 import "./style.css";
 import Companies from "../components/home/Companies/Companies";
+
 import Contact from "../components/home/Contact/Contact";
 import Footer from "../components/home/Footer/Footer";
 import GetStarted from "../components/home/GetStarted/GetStarted";
@@ -37,6 +38,7 @@ const App = () => {
 <div className="App">
     <Header />
     <Hero />
+   
     <Companies />
     <Testimonals />
     <Value />

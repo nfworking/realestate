@@ -1,0 +1,23 @@
+
+
+.search_input {
+    margin-top: 35px;
+    margin-left: 200px;
+}
+.search_input input{
+    padding: 1rem 14rem;
+    border-radius: 30px;
+    margin-left: 75px;
+    margin-bottom: 30px;
+    position: relative;
+    border: 1px solid #666;
+}
+.search_input .search_icon{
+    font-size: 30px;
+    color: blue;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 11px;
+    z-index: 1000;
+}
+

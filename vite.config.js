@@ -18,6 +18,7 @@ export default defineConfig({
         main: resolve(root, 'index.html'),
         about: resolve(root, 'about', 'index.html'),
         houses: resolve(root, 'housegrid', 'index.html'),
+        housesort: resolve(root, 'housesort', 'index.html'),
         maps: resolve(root, 'maps', 'index.html'),
         information: resolve(root, 'package1', 'index.html'),
         information2: resolve(root, 'package2', 'index.html'),

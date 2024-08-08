@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Casa Mexicali",
+    "price": "2.500,000.00",
+    "detail": "5 bedrooms · 3 bathrooms · Heated Pool",
+    "image": "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/03/Mexicali-1-1024x686.jpg",
+    "outcome": "Explore",
+    "url" : "/package1/"
+  },
+  {
+    "name": "Coobowie Waters",
+    "price": "3.200,000.00",
+    "detail": "5 bedrooms · 4 bathrooms · Heated Spa",
+    "image": "https://www.eliteholidayhomes.com.au/wp-content/uploads/2022/11/web-01-1024x682.jpg",
+     "outcome": "Explore",
+    "url" : "/package2/"
+  },
+  {
+    "name": "Main River Magic!",
+    "price": "10,000,000.00",
+    "detail": "7 bedrooms · 5 bathrooms · Surfers Paradise",
+    "image": "https://www.eliteholidayhomes.com.au/wp-content/uploads/2017/03/011_Open2view_ID779234-16_Sunset_Boulevard__Surfers_Paradise-1024x684.jpg",
+    "outcome": "Explore",
+    "url" : "/package3/"
+  },
+  {
+    "name": "Coral Sands",
+    "price": "9000000",
+    "detail": "8 bedrooms · 5 bathrooms",
+    "image": "https://www.eliteholidayhomes.com.au/wp-content/uploads/2020/03/Coral_Sands_Luxury_Waterfront_relaxing_pool.jpg",
+    "outcome": "Explore",
+    "url" : "/package4/"
+  },
+  {
+    "name": "The Lotus",
+    "price": "7500000",
+    "detail": "6 bedrooms · 3.5 bathrooms",
+    "image": "https://www.eliteholidayhomes.com.au/wp-content/uploads/2014/02/the-lotus-gold-coast-holiday-rentals.jpg",
+    "outcome": "Explore",
+    "url" : "/package5/"
+  },
+  {
+    "name": "Haven On Holland",
+    "price": "8500000",
+    "detail": " 7 bedrooms · 5 bathrooms",
+    "image": "https://www.eliteholidayhomes.com.au/wp-content/uploads/2018/02/Haven-On-Holland-Broadbeach-Waters-Luxury-Family-Holiday-Home-Ultimate-Luxury-1.jpg",
+    "outcome": "Explore",
+    "url" : "/package6/"
+  }
+]
+  
