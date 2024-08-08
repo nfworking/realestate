@@ -1,11 +1,15 @@
 import "./Hero.css";
 import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
+
 import { motion } from "framer-motion";
 import image1 from "/hero.jpg";
 const Hero = () => {
   return (
     <section className="hero-wrapper">
+      <video autoPlay loop muted id='video'>
+        <source src="https://www.youtube.com/watch?v=ec_fXMrD7Ow" type="video/mp4"/>
+      </video>
       <div className="paddings innerWidth flexCenter hero-container">
         {/* left side */}
         <div className="flexColStart hero-left">
