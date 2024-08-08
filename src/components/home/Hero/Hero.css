@@ -15,7 +15,7 @@
   position: absolute;
   z-index: 1;
   width: 100%;
- filter: blur(4px);
+ filter: brightness(50%);
 }
 
 
