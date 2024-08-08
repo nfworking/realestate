@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { BiSearch } from 'react-icons/bi';
 import "./searchbar.css";
+
 import { Grid, Card, CardContent, Typography } from "@mui/material";
 import Container from "@mui/material/Container";
 import data from "../houselist/utils/slider.json";

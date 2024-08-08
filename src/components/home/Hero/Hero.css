@@ -9,6 +9,10 @@
 .hero-container {
   justify-content: space-around;
   align-items: flex-end; 
+  z-index: 1;
+  background-image: url("/hero-photo.jpeg");
+  background-repeat: none;
+  background-size: cover;
 }
 
 
@@ -65,7 +69,7 @@
   height: 35rem;
   overflow: hidden;
   border-radius: 15rem 15rem 0 0;
-  border: 8px solid rgba(255, 255, 255, 0.12);
+
 }
 .image-container>img{
     width: 100%;

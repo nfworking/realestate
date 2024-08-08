@@ -5,7 +5,9 @@
   text-align: center;
   color-scheme: dark;
 }
-
+*{
+  font-family: "Rubik", sans-serif;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
