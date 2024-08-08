@@ -16,6 +16,7 @@
   z-index: 1;
   width: 100%;
  filter: brightness(50%);
+ box-shadow: 2px 2px 3px blue;
 }
 
 
