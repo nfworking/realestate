@@ -1,7 +1,7 @@
 import "./Hero.css";
 import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
-import Herovideo from "/Coastfg.mp4";
+import Herovideo from "/google.mp4";
 
 import { motion } from "framer-motion";
 import image1 from "/hero.jpg";
