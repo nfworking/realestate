@@ -1,12 +1,13 @@
 body {
   background-color: transparent;
+  
 }
 .main {
   /* display: flex; */
   /* align-items: center;
   justify-content: center; */
   /* height: 100vh; */
-  margin-top: 10%;
+  margin-top: 350px;
   z-index: -1;
 }
 

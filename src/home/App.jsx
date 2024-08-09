@@ -38,8 +38,6 @@ const App = () => {
 <div className="App">
     <Header />
     <Hero />
-   
-    <Companies />
     <Testimonals />
     <Value />
     <GetStarted />
