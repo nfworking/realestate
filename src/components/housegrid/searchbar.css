@@ -21,3 +21,12 @@
     z-index: 1000;
 }
 
+@media (max-width: 640px) {
+    .search_input{
+        margin-left: 0px;
+          }
+
+    .search_input input{
+        padding: 0.5rem 7rem;
+    }
+}

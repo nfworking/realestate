@@ -10,9 +10,16 @@
   align-items: flex-end;
 }
 
+@media (max-width: 640px) {
+  #video{
+    width: 75%;
+    margin-left: 10px;
+  }
+}
+
 #video {
   position: absolute;
-  z-index: 1;
+  z-index: 0;
   width: 100%;
   filter: brightness(50%);  
   box-shadow: inset;

@@ -41,7 +41,7 @@ const App = () => {
     <Testimonals />
     <Value />
     <GetStarted />
-    <Contact />
+   
     <Footer />
 </div>
 

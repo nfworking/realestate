@@ -1,10 +1,11 @@
 .f-container{
     justify-content: space-between;
+    gap: 40px;
 }
 
 
 .f-left{
-    gap: 1rem;
+    gap: 4rem;
 }
 .f-menu{
     gap: 1.5rem;

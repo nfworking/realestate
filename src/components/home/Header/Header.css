@@ -26,14 +26,15 @@
   }
   .h-menu {
     color: var(--black);
-    position: absolute;
-    gap: 2rem;
+   position: absolute;
+    gap: 2rem;  
     font-weight: 500;
     flex-direction: column;
     right: 4rem;
     top: 3rem;
+    z-index: 20;
     background: white;
-    display: flex;
+display: flex;
     border-radius: 10px;
     transition: all 200ms ease;
     align-items: flex-start;

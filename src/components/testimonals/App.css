@@ -7,17 +7,37 @@ body {
   /* align-items: center;
   justify-content: center; */
   /* height: 100vh; */
-  margin-top: 350px;
+  margin-top: 180px;
   z-index: -1;
+  margin-bottom: 100px;
 }
 
 .mySwiper {
   width: 80%;
 }
+@media (max-width: 640px) {
+  .swiper-slide{
+    width: 100px;
+  }
 
+  .main{
+    margin-top: 50px;
+  }
+
+  .head-p {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.2rem;
+    font-weight: 500;
+  
+  }
+}
 .swiper-slide {
   width: 200px;
-  background-color: transparent;
+  background-color: black;
   border-radius: 10px;
   background-size: cover;
   /* border: 1px solid white; */
