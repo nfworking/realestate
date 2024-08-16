@@ -1,13 +1,16 @@
-.h-wrapper {
+.header-wrapper {
   position: fixed;
   top: 0;
   width: 100%;
+ 
+
 }
 .h-container {
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: var(--secondary);
   justify-content: space-between;
+
 }
 
 .h-menu {
