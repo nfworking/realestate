@@ -4,7 +4,7 @@ import { BiMenuAltRight } from "react-icons/bi";
 import { getMenuStyles } from "../utils/common";
 import useHeaderColor from "../hooks/useHeaderColor";
 import OutsideClickHandler from "react-outside-click-handler";
-import companyimg from "/logo.png"
+import companyimg from "/logos.png"
 import addNotification from "react-push-notification";
 
 
@@ -26,7 +26,7 @@ addNotification({
     <section className="h-wrapper" style={{ backgroundColor: "blue" }}>
       <div className="flexCenter innerWidth paddings h-container">
         {/* logo */}
-        <img src={companyimg} alt="logo" width={100} />
+        <img src={companyimg} alt="logo" width={75} />
 
         {/* menu */}
         <OutsideClickHandler

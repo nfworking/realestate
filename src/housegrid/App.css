@@ -2,7 +2,15 @@
   position: relative;
   overflow-x: clip;
   animation: FadeIn 3s;
+
 }
+
+
+*{
+
+}
+
+
 .App>:nth-child(1)
 {
   background: var(--black);

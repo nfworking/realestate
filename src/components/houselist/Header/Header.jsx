@@ -13,7 +13,7 @@ const Header = () => {
     <section className="h-wrapper" style={{ backgroundColor: "blue" }}>
       <div className="flexCenter innerWidth paddings h-container">
         {/* logo */}
-        <img src="/logo.png" alt="logo" width={100} />
+        <img src="/logos.png" alt="logo" width={75} />
 
         {/* menu */}
         <OutsideClickHandler
@@ -26,7 +26,7 @@ const Header = () => {
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
-           <a href="/home/">Home</a>
+           <a href="/">Home</a>
             <a href="/houselist/">Residencies</a>
             <a href="/contact-us/">Contact Us</a>
             <a href="/about/">About</a>

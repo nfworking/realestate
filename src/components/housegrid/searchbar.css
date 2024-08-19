@@ -10,7 +10,8 @@
     margin-left: 75px;
     margin-bottom: 30px;
     position: relative;
-    border: 1px solid white;
+    border: 1px  white;
+
 }
 .search_input .search_icon{
     font-size: 30px;
@@ -29,4 +30,9 @@
     .search_input input{
         padding: 0.5rem 7rem;
     }
+}
+
+.search_input input:hover{
+    box-shadow: 0px 3px 20px 5px blue;
+    transition: 1s ease ;
 }
