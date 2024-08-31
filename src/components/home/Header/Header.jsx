@@ -44,9 +44,11 @@ addNotification({
             <a href="/housegrid/">Residencies</a>
             <a href="/contact-us/">Contact Us</a>
             <a href="/about/">About</a>
+           
             <button onClick={clickToNotify} className="button">
               <a >Contact</a>
             </button>
+          
             
           </div>
         </OutsideClickHandler>
